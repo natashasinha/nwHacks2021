@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body background="background8small.jpg" topmargin="200">
+    <basefont face="candara"/>
+    <center>
+    
+    
+        
+           <!-- enter the name  -->
+           <form name="createProfile" method="post" action="SearchServlet">
+            Name: <input type="text" name="name"/> <br/><br/>
+            
+            UserName: <input type="text" name="id"/> <br/><br/>
+           
+            <!-- enter the age  -->
+            Age: <input type="text" name="age"/> <br/><br/>
+            
+            <!-- enter the state  -->
+            State: <input type="text" name="state"/> <br/><br/>
+            
+             <!-- enter the city  -->
+            City: <input type="text" name="city"/> <br/><br/>
+           
+            <!-- enter the pronouns  -->
+            <label for="pronouns">Gender Pronouns:</label>
+                <select id="pronouns" name="pronouns">
+                          <option>She/her/hers</option>
+                          <option>He/his/him</option>
+                          <option>They/their/them</option>
+                          <option>Other</option>
+                </select></br><br/>
+            
+            <!-- enter the gender preferences  -->
+            <label for="prefs">Prefer to live with:</label>
+                <select id="prefs" name="prefs">
+                          <option>She/her/hers</option>
+                          <option>He/his/him</option>
+                          <option>They/their/them</option>
+                          <option>Other</option>
+                </select></br><br/>
+        
+           <!-- enter the profession  -->
+           Profession: <input type="text" name="profession"/> <br/><br/>
+               
+            <!-- enter the phone number  -->            
+            Phone number: <input type="text" name="number"/> <br/><br/>
+           
+             <label for="type">Preferred house type:</label>
+            <select name="type">
+                <option>Apartment</option>
+                <option>House</option>
+            </select><br/><br/>
+             
+             <label for="roommate_type">What describes you? </label>
+            <select name="roommate_type">
+                <option>Already have a place to live</option>
+                <option>Looking for a place to move into</option>
+            </select><br/><br/><br/>
+             
+            
+            <input type="submit" value="Create Profile">
+    </form>
+       
+    
+   
+        </center> 
+    </body>
+</html>
