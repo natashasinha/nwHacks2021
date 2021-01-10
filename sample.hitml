@@ -18,14 +18,50 @@ and open the template in the editor.
         </form>
               <!-- enter the age  -->
         <form name="enterAge" method="post" action="MyServlet">
-            Name: <input type="text" name="Age"/> <br/>
+            Age: <input type="text" name="Age"/> <br/>
             <input type="submit" value="Age" />
         </form>
               
         <form name="state" method="post" action="MyServlet">
-            Name: <input type="text" name="state"/> <br/>
+            State: <input type="text" name="state"/> <br/>
             <input type="submit" value="state" />
         </form>
+              
+        <form name="city" method="post" action="MyServlet">
+            City: <input type="text" name="city"/> <br/>
+            <input type="submit" value="city" />
+        </form>
+        
+        <label for="pronouns">Gender Pronouns:</label>
+        <select id="pronouns" name="pronouns">
+                  <option>She/her/hers</option>
+                  <option>He/his/him</option>
+                  <option>Other</option>
+         </select>
+        
+        <label for="prefs">Prefer to live with:</label>
+        <select id="prefs" name="prefs">
+                  <option>She/her/hers</option>
+                  <option>He/his/him</option>
+                  <option>Other</option>
+         </select>
+        
+         <form name="profession" method="post" action="MyServlet">
+            Profession: <input type="text" name="profession"/> <br/>
+            <input type="submit" value="profession" />
+        </form>    
+        
+         <form name="number" method="post" action="MyServlet">
+            Phone number: <input type="text" name="number"/> <br/>
+            <input type="submit" value="number" />
+        </form>  
+        
+        <label for="hobbies">Hobbies:</label>
+        <select id="hobbies" name="hobbies">
+                  <option>Sports</option>
+                  <option>Art</option>
+                  <option>Reading</option>
+         </select>
         
         
       
