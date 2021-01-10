@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+           <!-- enter the name  -->
+        <form name="enterName" method="post" action="MyServlet">
+            Name: <input type="text" name="name"/> <br/>
+            <input type="submit" value="Name" />
+        </form>
+              <!-- enter the age  -->
+        <form name="enterAge" method="post" action="MyServlet">
+            Name: <input type="text" name="Age"/> <br/>
+            <input type="submit" value="Age" />
+        </form>
+              
+        <form name="state" method="post" action="MyServlet">
+            Name: <input type="text" name="state"/> <br/>
+            <input type="submit" value="state" />
+        </form>
+        
+        
+      
+    </body>
+</html>
